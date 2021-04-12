@@ -10,7 +10,7 @@ import React from 'react';
           props.handleDeleteOption(props.optionText)
         } }
         >
-         ef this noise 
+          ef this noise  
          </button>
       </div>
     )

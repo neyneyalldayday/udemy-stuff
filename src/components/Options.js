@@ -3,8 +3,7 @@ import Option from './Option'
 
 
 
-const Options = (props) => {
-    return (      
+const Options = (props) => (      
       <div>
         <button onClick={props.handleDeleteOptions}>remove shit!!</button> 
         {props.options.length === 0 && <p>add some shit</p>}      
@@ -19,8 +18,6 @@ const Options = (props) => {
        }      
      
       </div>
-    )
-  
-  };
+    );
 
   export default Options

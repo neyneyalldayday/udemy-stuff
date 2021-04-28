@@ -4,4 +4,6 @@ $brand-color: blue;
 
 * {
     color:$brand-color;
+    display: flex;
+    flex-direction: column;
 }
